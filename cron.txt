@@ -31,6 +31,7 @@ Problem 14: Write a CRON expression that runs a job every 5 minutes on weekdays 
 	(0/5 * * * 0-4) (0/15 * * * 5-6)
 Problem 15: Write a CRON expression that runs a job every 10 minutes but only between 9:00 AM and 6:00 PM on 
 weekdays. 
+	(0/10 9-18 * * 0-4)
 Problem 16: Write a CRON expression that runs a job every hour during the first half of the month. 
 Problem 17: Write a CRON expression that runs a job every 5 minutes on weekdays and every 15 minutes on weekends. 
 Problem 18: Write a CRON expression that runs a job at 11:30 PM every Friday the 13th. 
