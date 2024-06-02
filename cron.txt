@@ -38,6 +38,7 @@ Problem 17: Write a CRON expression that runs a job every 5 minutes on weekdays 
 Problem 18: Write a CRON expression that runs a job at 11:30 PM every Friday the 13th. 
 	(30 23 13 * 5)
 Problem 19: Write a CRON expression that runs a job every hour but only on even-numbered days of the month. 
+	(0 * 2/2 * *)
 Problem 20: Write a CRON expression that runs a job every 5 minutes but only between 9:00 AM and 6:00 PM on 
 weekends. 
 Problem 21: Write a CRON expression that runs a job at 3:30 AM every day except Saturday and Sunday. 
