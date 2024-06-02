@@ -60,6 +60,7 @@ Problem 28: Write a CRON expression that runs a job at 12:00 PM on the 3rd Wedne
 	(00 12 * * 3#3)
 Problem 29: Write a CRON expression that runs a job at 10:00 PM every Sunday in the months of July, August, and 
 September. 
+	(00 22 * 7-9 0)
 Problem 30: Write a CRON expression that runs a job at 12:00 PM every day except Sunday in the month of July. 
 Problem 31: Write a CRON expression that runs a job at 11:30 PM every Friday. 
 Problem 32: Write a CRON expression that runs a job at 3:15 AM every day. 
