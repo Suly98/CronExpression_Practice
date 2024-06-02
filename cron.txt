@@ -90,6 +90,7 @@ Problem 46: Write a CRON expression that runs a job at 12:00 PM on the first Mon
 Problem 47: Write a CRON expression that runs a job every 5 minutes on the first 10 days of January. 
 	(0/5 * 1-10 1 *)
 Problem 48: Write a CRON expression that runs a job at 4:30 PM on weekdays in July and August. 
+	(30 16 * 7-8 0-4)
 Problem 49: Write a CRON expression that runs a job at 12:00 AM on the first day of every quarter (January, April, July, 
 and October). 
 Problem 50: Write a CRON expression that runs a job at 8:00 AM every day, except for the last day of the month. 
