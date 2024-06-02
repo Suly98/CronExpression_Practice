@@ -23,8 +23,10 @@ Problem 11: Write a CRON expression that runs a job every 30 minutes during busi
 weekdays. 
 	(0/30 8-17 * * 0-4)
 Problem 12: Write a CRON expression that runs a job every hour on the 15th day of the month. 
+	(0 * 15 * *)
 Problem 13: Write a CRON expression that runs a job every day at 6:00 PM during daylight saving time (DST) in the 
 United States. 
+	(0 18 * 3-11 *)
 Problem 14: Write a CRON expression that runs a job every 5 minutes on weekdays and every 15 minutes on weekends. 
 Problem 15: Write a CRON expression that runs a job every 10 minutes but only between 9:00 AM and 6:00 PM on 
 weekdays. 
