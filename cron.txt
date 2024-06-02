@@ -14,6 +14,7 @@ Problem 6: Write a CRON expression that runs a job every Sunday at 7:30 PM and 1
 Problem 7: Write a CRON expression that runs a job every 15 minutes between 8:00 AM and 10:45 PM every day. 
 	(0,15,30,45 8-22 * * *)
 Problem 8: Write a CRON expression that runs a job every hour on weekdays between 9:00 AM and 5:00 PM. 
+	(0 9-17 * * 0-4)
 Problem 9: Write a CRON expression that runs a job every day at 3:00 AM. 
 Problem 10: Write a CRON expression that runs a job every hour during the month of January. 
 Problem 11: Write a CRON expression that runs a job every 30 minutes during business hours (8:00 AM to 5:00 PM) on 
