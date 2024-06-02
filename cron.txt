@@ -95,6 +95,7 @@ Problem 49: Write a CRON expression that runs a job at 12:00 AM on the first day
 and October). 
 	(00 00 1 1,4,7,10 *)
 Problem 50: Write a CRON expression that runs a job at 8:00 AM every day, except for the last day of the month. 
+	(00 8 1-29 * *)
 Problem 51: Write a CRON expression that runs a job every 2 hours between 10:00 PM and 6:00 AM. 
 Problem 52: Write a CRON expression that runs a job at 1:30 PM on the second to last Friday of every month. 
 Problem 53: Write a CRON expression that runs a job at 5:30 PM on the first day of every month. 
