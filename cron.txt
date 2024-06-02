@@ -42,6 +42,7 @@ Problem 19: Write a CRON expression that runs a job every hour but only on even-
 Problem 20: Write a CRON expression that runs a job every 5 minutes but only between 9:00 AM and 6:00 PM on 
 weekends. 
 Problem 21: Write a CRON expression that runs a job at 3:30 AM every day except Saturday and Sunday. 
+	(30 3 * * 1-5)
 Problem 22: Write a CRON expression that runs a job at the top of every hour between 9:00 AM and 5:00 PM on the 
 15th day of the month. 
 Problem 23: Write a CRON expression that runs a job at 8:15 AM every weekday except Friday. 
